@@ -1,26 +1,23 @@
 # AI‑Powered Daily Time Tracking and Analytics Dashboard
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/GanagallaJoshitha/AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard/actions)
-[![Demo](https://img.shields.io/badge/demo-online-blue)](https://your-live-demo-link.com)
-
----
-
 ## Table of Contents
 
-1. [Project Overview](#project-overview)  
-2. [Motivation & Objectives](#motivation--objectives)  
-3. [Features](#features)  
-4. [Tech Stack](#tech-stack)  
-5. [Project Architecture](#project-architecture)  
-6. [Folder / File Structure](#folder--file-structure)  
-7. [Setup & Installation](#setup--installation)  
-8. [Usage](#usage)  
-9. [Data Flow & Storage](#data-flow--storage)  
-10. [Extending / Contributing](#extending--contributing)  
-11. [Future Enhancements / Roadmap](#future-enhancements--roadmap)  
-12. [License & Acknowledgements](#license--acknowledgements)  
-13. [Contact / Author Info](#contact--author-info)  
+1. [Project Overview](#project-overview)
+2. [Live Demo](#live-demo)
+3. [Video Walkthrough](#video-walkthrough)  
+4. [Motivation & Objectives](#motivation--objectives)  
+5. [Features](#features)  
+6. [Tech Stack](#tech-stack)  
+7. [Project Architecture](#project-architecture)  
+8. [Folder / File Structure](#folder--file-structure)
+9. [Screenshots / GIFs](#screenshots--gifs)  
+10. [Setup & Installation](#setup--installation)  
+11. [Usage](#usage)  
+12. [Data Flow & Storage](#data-flow--storage)  
+13. [Extending / Contributing](#extending--contributing)  
+14. [Future Enhancements / Roadmap](#future-enhancements--roadmap)  
+15. [License & Acknowledgements](#license--acknowledgements)  
+16. [Contact / Author Info](#contact--author-info)  
 
 ---
 
@@ -30,6 +27,24 @@ The **AI‑Powered Daily Time Tracking and Analytics Dashboard** is a web applic
 Users can log daily activities, visualize the data on an interactive dashboard, and gain insights into how time is spent.  
 
 The app is built using **TypeScript + Vite**, providing a fast, modular, and maintainable codebase.
+
+---
+## Live Demo
+
+Check the live deployed application here:  
+[**Live Demo**](https://ai.studio/apps/drive/1pvYcjJXYAaPY8-jjyBZ_S_fr6NKXJ-B4)
+
+---
+
+## Video Walkthrough
+
+Watch the 2–5 minute project walkthrough here:  
+[**Video Walkthrough**](https://drive.google.com/file/d/1C1V2U5lpd-7q7r3sH5f2aqHT0Mo-jBPt/view?usp=sharing)
+
+**In this video:**
+- Walkthrough of main features.  
+- Demonstration of the dashboard and “No data available” state.  
+- Explanation of how AI tools (Google AI Studio) were used.
 
 ---
 
@@ -109,6 +124,20 @@ npm run build
 ```
 ⚠️ Make sure Node.js and npm are installed.
 ⚠️ Google AI Studio is used for AI-powered analytics. Ensure API keys are configured in .env if required.
+6. **Set up Google AI Studio / Firebase config (if required)**
+Add your API keys or configuration in the .env file.
+
+
+---
+## Screenshots / GIFs
+<img width="1875" height="860" alt="image" src="https://github.com/user-attachments/assets/90c42e1b-7c3b-4570-bf61-c7d42df76f9e" />
+
+
+![SC1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/639e6d1c-6367-411b-90fd-40b81011f909)
+
+
+![SC2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e574a774-11f2-40d4-ae76-799ef32dd34b)
+
 
 ## Data Flow & Storage
 
@@ -162,8 +191,5 @@ User Input → Component State → Services → Storage (LocalStorage / Backend)
 Author: Ganagalla Joshitha
 [GitHub](https://github.com/GanagallaJoshitha)
 [Project Repository](https://github.com/GanagallaJoshitha/AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard)
-
-## Demo Video
-
 
 
