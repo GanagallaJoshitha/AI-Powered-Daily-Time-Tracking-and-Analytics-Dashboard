@@ -83,24 +83,20 @@ User Interaction → Component State → Services → LocalStorage / Backend →
 
 ## Folder / File Structure
 
-AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard/
-├── components/ # React components (UI)
-├── services/ # Data handling and utilities
-├── public/
-│ └── index.html # HTML template
-├── App.tsx # Main app component
-├── index.tsx # App entry point
-├── package.json # NPM dependencies & scripts
-├── tsconfig.json # TypeScript configuration
-├── vite.config.ts # Vite configuration
-├── node_modules/
-├── dist/ # Production build output
-└── README.md # Repository info
----
+<img width="421" height="272" alt="image" src="https://github.com/user-attachments/assets/3b2dce09-34d8-481f-94c9-917f3b971d80" />
 
 ## Setup & Installation
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/GanagallaJoshitha/AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard.git
-
+2. Navigate to project folder
+cd AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard
+3. Install dependencies
+npm install
+4. Run development server
+npm run dev
+5. Build for production
+npm run build
+⚠️ Make sure Node.js and npm are installed.
+⚠️ This project integrates Google AI Studio for AI-powered analytics, so ensure API keys or project setup is configured in .env if required.
