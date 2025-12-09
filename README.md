@@ -125,6 +125,7 @@ npm run build
 6. **Set up Google AI Studio / Firebase config (if required)**
 Add your API keys or configuration in the .env file.
 
+---
 ⚠️ Make sure Node.js and npm are installed.
 ⚠️ Google AI Studio is used for AI-powered analytics. Ensure API keys are configured in .env if required.
 ---
