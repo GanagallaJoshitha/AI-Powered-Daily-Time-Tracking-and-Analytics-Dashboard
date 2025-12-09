@@ -88,15 +88,82 @@ User Interaction → Component State → Services → LocalStorage / Backend →
 ## Setup & Installation
 
 1. **Clone the repository**
-```bash
+```
 git clone https://github.com/GanagallaJoshitha/AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard.git
-2. Navigate to project folder
+```
+2. **Navigate to the project folder**
+```
 cd AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard
-3. Install dependencies
+```
+3. **Install dependencies**
+```
 npm install
-4. Run development server
+```
+4. **Run the development server**
+```
 npm run dev
-5. Build for production
+```
+5. **Build for production**
+```
 npm run build
+```
 ⚠️ Make sure Node.js and npm are installed.
-⚠️ This project integrates Google AI Studio for AI-powered analytics, so ensure API keys or project setup is configured in .env if required.
+⚠️ Google AI Studio is used for AI-powered analytics. Ensure API keys are configured in .env if required.
+
+## Data Flow & Storage
+
+1. User logs tasks/time via UI.
+2. Components update the application state.
+3. Data is persisted in LocalStorage or backend.
+4. Dashboard displays analytics, including AI-generated insights from Google AI Studio.
+5. On page reload, stored data is reloaded into the state.
+
+Flow Diagram: 
+
+User Input → Component State → Services → Storage (LocalStorage / Backend) → Dashboard → AI Studio Analytics → Dashboard Visualization
+
+## Extending / Contributing
+
+* Add multi-user authentication and backend storage.
+* Enhance analytics with Google AI Studio or other AI APIs.
+* Improve visualizations using charts (Chart.js, Recharts, D3.js).
+* Add dark/light mode or theme customization.
+* Export/import tasks in CSV/JSON formats.
+* Add unit and integration tests.
+* Deployment improvements using Docker or CI/CD.
+* Contributions welcome via pull requests.
+
+## Future Enhancements / Roadmap
+
+* Multi-user support with secure login.
+
+* Cloud syncing for tasks and analytics.
+
+* AI-powered suggestions and predictions via Google AI Studio.
+
+* Notifications or reminders for tasks.
+
+* Dark mode and custom themes.
+
+* Export/import logs in CSV/JSON formats.
+
+* Automated testing and CI/CD deployment.
+
+## License & Acknowledgements
+
+* Licensed under the MIT License – see LICENSE file.
+
+* Thanks to Google AI Studio for AI-powered analytics.
+
+* Open-source libraries used: React, TypeScript, Vite.
+
+## Contact / Author Info
+
+Author: Ganagalla Joshitha
+[GitHub](https://github.com/GanagallaJoshitha)
+[Project Repository](https://github.com/GanagallaJoshitha/AI-Powered-Daily-Time-Tracking-and-Analytics-Dashboard)
+
+## Demo Video
+
+
+
