@@ -78,7 +78,7 @@ Watch the 2–5 minute project walkthrough here:
 | Frontend | React, TypeScript, HTML, CSS (or TailwindCSS) |
 | Build Tool | Vite + Rollup |
 | State Management | React Hooks (`useState`, `useEffect`) |
-| Storage | LocalStorage (or backend if implemented) |
+| Storage | LocalStorage (or backend if implemented) and Firebase |
 | Version Control | Git + GitHub |
 
 ---
@@ -122,12 +122,11 @@ npm run dev
 ```
 npm run build
 ```
-⚠️ Make sure Node.js and npm are installed.
-⚠️ Google AI Studio is used for AI-powered analytics. Ensure API keys are configured in .env if required.
 6. **Set up Google AI Studio / Firebase config (if required)**
 Add your API keys or configuration in the .env file.
 
-
+⚠️ Make sure Node.js and npm are installed.
+⚠️ Google AI Studio is used for AI-powered analytics. Ensure API keys are configured in .env if required.
 ---
 ## Screenshots / GIFs
 <img width="1875" height="860" alt="image" src="https://github.com/user-attachments/assets/90c42e1b-7c3b-4570-bf61-c7d42df76f9e" />
